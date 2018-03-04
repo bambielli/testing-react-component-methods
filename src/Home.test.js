@@ -20,7 +20,7 @@ describe ('home', () => {
     });
   });
 
-  describe('directly invoking the "incrementCounter" private method off of component instance', () => {
+  describe('directly invoking the "incrementCounter" method off of component instance', () => {
     it('should update the count by 1 when invoked by default', () => {
       const wrapper = shallow(<Home />);
       const instance = wrapper.instance();
@@ -37,7 +37,7 @@ describe ('home', () => {
     });
   });
 
-  describe('spying on private method from component instance', () => {
+  describe('spying on "incrementCounter" method from component instance', () => {
     it('should call incrementCounter when the button is clicked', () => {
       const wrapper = shallow(<Home two />); //passing the "two" prop to test if it is properly passed to onClick handler
       const instance = wrapper.instance();

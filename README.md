@@ -6,7 +6,7 @@ While this is a valuable test to ensure your component behaves as expected, it c
 
 I recently learned about the enzyme `wrapper.instance()` method, which returns the component instance inside of the wrapper. Getting access to this instance allows you to directly invoke component methods, instead of resorting to event simulation to indirectly trigger them.
 
-This also allows you to spy on component methods using `jest.spyOn()`, which can be useful to ensure complex interactions between private methods occur as expected.
+This also allows you to spy on component methods using `jest.spyOn()`, which can be useful to ensure that complex interactions between methods occur as expected.
 
 This repository contains a sample component `Home.js` with a method `incrementCounter()` that I exercise both indirectly and directly in the file `Home.test.js`.
 
