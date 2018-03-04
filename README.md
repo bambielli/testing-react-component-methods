@@ -11,6 +11,4 @@ This also allows you to spy on component methods using `jest.spyOn()`, which can
 This repository contains a sample component `Home.js` with a method `incrementCounter()` that I exercise both indirectly and directly in the file `Home.test.js`.
 
 
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
